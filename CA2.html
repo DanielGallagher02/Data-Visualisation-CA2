@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class test</title>
+</head>
+<body>
+  <fieldset>
+    <legend>Select building view:</legend>
+    <div>
+      <input type="radio" id="h1" name="tst" value="height" checked>
+      <label for="height">Height</label>
+    </div>
+    <div>
+      <input type="radio" id="f1" name="tst" value="floors">
+      <label for="floors">Floors</label>
+    </div>
+  </fieldset>
+  <h1>D3 Worlds largest buildings</h1>
+  <div class="container">
+    <svg></svg>
+  </div>
+  <div id="tooltip" style="position: absolute; visibility: hidden;"></div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="loadCAData.js"></script>
+</body>
+</html>
